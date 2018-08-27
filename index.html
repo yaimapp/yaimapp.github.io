@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="programmer, php, ruby, javascript, wordpress, iOS, Android">
- <meta name="author" content="yaimapp">
+    <meta name="author" content="yaimapp">
 
     <title>Yaimapp.net</title>
 
@@ -67,9 +67,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="" href="http://blog.yaimapp.net" target="_blank">Blog</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -136,6 +136,34 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/38qa.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>ミツバチQ&amp;A</h4>
+                        <p class="text-muted">Web Application</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/swarm-map.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>分蜂マップ</h4>
+                        <p class="text-muted">Web Application</p>
+                    </div>
+                </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -394,6 +422,74 @@
         </div>
     </div>
 
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>分蜂マップ</h2>
+                            <p class="item-intro text-muted">全国のミツバチ捕獲情報投稿サイト</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/swarm-map_preview.png" alt="">
+                            <p></p>
+                            <p>ミツバチの捕獲情報を投稿し、それを地図上に表示します。</p>
+                            <p>Ruby on Rails + Google Maps API</p>
+                            <p>デザインに AngularMaterial を使用</p>
+                            <p>RailsによるAPI部分、投稿フォームや地図のカスタマイズ(javascript)を担当。</p>
+                            <ul class="list-inline">
+                                <li>Date: 2017/01 - 2018/05</li>
+                                <li>URL: <a href="https://www.swarm-map.com/" target="_blank">https://www.swarm-map.com/</a></li>
+                                <li>Category: Web Application</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>ミツバチQ&amp;A</h2>
+                            <p class="item-intro text-muted">ニホンミツバチ、セイヨウミツバチの疑問を解決</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/38qa_preview.png" alt="">
+                            <p>ニホンミツバチ、セイヨウミツバチに関するQ&amp;Aサイト</p>
+                            <p>質問を投稿できます。また質問に回答したりコメントを投稿できます。</p>
+                            <p>Question2AnswerというQ&amp;A用オープンソースプラットフォームを使用。</p>
+                            <p>各機能追加のため、プラグインの作成とカスタマイズ(PHP)を担当。</p>
+                            <ul class="list-inline">
+                                <li>Date: 2016/05 - 2018/08</li>
+                                <li>URL: <a href="https://38qa.net/" target="_blank">https://38qa.net/</a></li>
+                                <li>Category: Web Application</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
